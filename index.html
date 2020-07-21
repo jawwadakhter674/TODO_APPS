@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+
+
+    <style>
+        body{
+            text-align: center;
+            background-color: lightblue;
+            background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+        }
+        
+        .div1{
+            border: 4px solid green;
+            height: 400px;
+            margin-left: 600px;
+            margin-right: 600px;
+            background-color: lightgreen;
+           
+        }
+    button{
+        background-color: linen;
+    }
+    @media only screen and (max-width: 600px) {
+    
+        body{
+            text-align: center;
+            background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+            
+            
+        }
+        .div1{
+            border: 2px solid green;
+            height: 400px;
+            margin-left: 100px;
+            margin-right: 100px;
+            background-color: lightgreen;
+            width: 70%;
+           
+        }
+    }
+    @media only screen and (max-width: 400px) {
+    
+    body{
+        text-align: center;
+        background-image:  url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+        
+        
+    }
+    .div1{
+        border: 2px solid green;
+        height: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: lightgreen;
+        width: 80%;
+       
+    }
+    }
+    
+    </style>
+    
+    
+    
+    <div  id="div1" class="div1">
+        <br>
+        <br>
+        <input  placeholder="Enter Your TODO" type="text" id="todo-item">
+     
+        <button onclick="addTodo()">ADD ITEMS</button>
+        <button onclick="delTodo()">DELETE ALL</button>
+        
+        <div id="kar">
+            <ul style="color: green;" id="list">
+    
+            </ul>
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+
+
+
+    <script src="apps.js"></script>
+</body>
+</html>
